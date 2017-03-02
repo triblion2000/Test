@@ -60,21 +60,3 @@ public class Test extends JavaPlugin implements Listener {
 
 
     }
-
-    //Heres the rest i should have given you before giving you your rank. Using the Spigot API (either 1.7 or 1.9) create a plugin that meets the following criteria:
-
-        //Plugin supplies its own default config file that contains a message of the day.
-
-        //Performs the six tasks below.
-
-        //When the plugin is loaded:
-        //- Build the default config (if config is not present) with a single string for message of the day (motd).
-       // - Prints the message of the day to the console via configured motd.
-       // - Starts a synchronous task to broadcast the message of the day every 10 minutes.
-       // - Plays a sound to a player when they join the server.
-
-      //  When the plugin is unloaded:
-       // - Send a sad message to console that the console is being unloaded.
-       // - Cancel all running tasks.
-
-       // Once you've completed the project, upload it to github and reply with a link to the project. You have 4 days to complete this from the time of this message.
