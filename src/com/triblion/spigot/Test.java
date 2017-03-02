@@ -8,8 +8,7 @@ import org.bukkit.event.player.PlayerJoinEvent;
 import org.bukkit.plugin.java.JavaPlugin;
 
 public class Test extends JavaPlugin implements Listener {
-
-    private Player player;
+    
     private String motd;
 
 
